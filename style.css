@@ -23,6 +23,20 @@ body {
     border-bottom: 2px solid #fca311;
 }
 
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer > p {
+    margin: 0;
+}
+
 #title {
     max-width: 1000px;
     margin: 0;

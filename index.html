@@ -14,26 +14,30 @@
     <div id="header"><p id="title">Rock, Paper, Scissors</p></div>
     <div id="main">
         <div id="banner">
-            <p>Ready to play?</p>
-            <p>First to 5 is the winner</p>
+            <p id="banner1">Ready to play?</p>
+            <p id="banner2">First to 5 is the winner</p>
         </div>
         <div id="button-group">
-            <div class="buttonbox"><button class="button">✊</button></div>
-            <div class="buttonbox"><button class="button">🤚</button></div>
-            <div class="buttonbox"><button class="button">✌️</button></div>
+            <div class="buttonbox"><button class="button" id="rockBtn">✊</button></div>
+            <div class="buttonbox"><button class="button" id="paperBtn">🤚</button></div>
+            <div class="buttonbox"><button class="button" id="scissorsBtn">✌️</button></div>
         </div>
         <div id="results-group">
             <div class="resultsbox">
-                <p>Player: 0</p>
+                <p id="playerScorecard">Player: 0</p>
                 <div class="results">?</div>
             </div>
             <div class="resultsbox">
-                <p>Computer: 0</p>
+                <p id="computerScorecard">Computer: 0</p>
+                <div class="results">?</div>
+            </div>
+            <div class="resultsbox">
+                <p id="drawScorecard">Draws: 0</p>
                 <div class="results">?</div>
             </div>
         </div>
     </div>
-    <div id="footer"></div>
+    <div id="footer"><p>Thanks for playing!</p></div>
     <script src="script.js"></script>
 </body>
 </html>
